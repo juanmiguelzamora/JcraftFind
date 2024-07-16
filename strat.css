@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    height: 0;
+    width: 0;
+    font-family: 'Poppins', sans-serif;
+    .poppins-regular {
+     font-family: "Poppins", sans-serif;
+     font-weight: 400;
+     font-style: normal;
+   }
+}
+
+.main{
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background-color: #ffffff;
+}
+
+.top a{
+    text-decoration: none;
+    color: #111111;
+    font-size: 12px;
+    font-weight: 600;
+    margin: 20px;
+    margin-left: 50px;
+}
+
+.top h1{
+    font-weight: 600;
+    font-size: 16px;
+    margin: 20px;
+    margin-right: 50px;
+}
+
+.content{
+    display: flex;
+    justify-content: row;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.guitars{
+    margin-left: 30px;
+    padding: 20px;
+    color: transparent;
+    box-shadow: 0px 0px 12px 1px rgba(0, 0, 0, 0.115);
+    border-radius: 20px;
+    width: 230px;
+    height: 350px;
+    transition: .5s ease-in-out;
+    justify-content: center;
+}
+
+.guitars img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px
+}
+
+.guitars label{
+    font-size: 14px;
+    font-weight: 600;
+    color: #111111;
+    text-align: center;
+}
+  
+.guitars h3{
+    font-weight: 300;
+    font-size: 12px;
+}
+  
+.guitars h4{
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.guitars a{
+    font-weight: 300;
+    font-size: 12px;
+    text-decoration: none;
+    color: #111111;
+    opacity: 0;
+    position: absolute;
+    bottom: 20px;
+    transition: opacity 0.5s ease-in-out;
+    background-color: #333;
+    color: #ffffff;
+    padding: 5px;
+    width: 40px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.guitars:hover{
+    color: #111111;
+    transform: scale(1.01);
+    box-shadow: 0px 0px 12px 1px rgba(0, 0, 0, 0.185);
+    height: 460px;
+}
+
+.guitars:hover a {
+    opacity: 1;
+}
